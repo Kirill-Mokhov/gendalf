@@ -1,0 +1,11 @@
+@import url("normalize.css");
+@import url("src/blocks/global/global.css");
+@import url("src/blocks/header/header.css");
+@import url("src/blocks/welcome/welcome.css");
+@import url("src/blocks/about__us/about__us.css");
+@import url("src/blocks/values/values.css");
+@import url("src/blocks/rise/rise.css");
+@import url("src/blocks/student/student.css");
+@import url("src/blocks/answers/answers.css");
+@import url("src/blocks/interview/interview.css");
+@import url("src/blocks/validate__form/validate.css");

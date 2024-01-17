@@ -1,0 +1,229 @@
+.about__us {
+    width: 1280px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.about__us__content {
+    width: 728px;
+    padding: 50px 0 50px 0;
+}
+
+.about__us__title {
+    margin: 0;
+    color: #00B7EC;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.about__us__text {
+    color: #666;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.about__us__button__learnMore {
+    width: 225px;
+    height: 50px;
+    margin-right: 20px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border-color: #00B7EC;
+    background: #00B7EC;
+    box-shadow: none;
+
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.about__us__button__interview {
+    width: 320px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #00B7EC;
+    background: #FFF;
+    box-shadow: none;
+
+    color: #00B7EC;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.about__us__image {
+    display: flex;
+    position: absolute;
+    right: 100px;
+    align-items: center;
+    width: 560px;
+    height: 370px;
+    margin-top: 50px;
+}
+
+.about__us__image__hexacon1 {
+    position: relative;
+    top: 35px;
+    left: -370px;
+}
+
+.about__us__image__hexacon2 {
+    position: relative;
+    top: -175px;
+    left: -365px;
+}
+
+.about__us__image__hexacon3 {
+    position: relative;
+    top: 100px;
+    left: -235px;
+}
+
+.about__us__button__hover1 {
+    --c: #00B7EC;
+    /* the color */
+    --b: .1em;
+    /* border length*/
+    --d: 10px;
+    /* the cube depth */
+
+    --_s: calc(var(--d) + var(--b));
+
+    color: #fff;
+    border: solid #0000;
+    border-width: var(--b) var(--b) var(--_s) var(--_s);
+    background:
+        conic-gradient(at left var(--d) bottom var(--d),#00B7EC 90deg, rgb(255 255 255 /0.3) 0 225deg, rgb(255 255 255 /0.6) 0) border-box,
+        conic-gradient(at left var(--_s) bottom var(--_s),#00B7EC 90deg, var(--c) 0) 0 100%/calc(100% - var(--b)) calc(100% - var(--b)) border-box;
+    transform: translate(calc(var(--d)/-1), var(--d));
+    clip-path:
+        polygon(var(--d) 0%,
+            var(--d) 0%,
+            100% 0%,
+            100% calc(100% - var(--d)),
+            100% calc(100% - var(--d)),
+            var(--d) calc(100% - var(--d)));
+    transition: 0.5s;
+}
+
+.about__us__button__hover2 {
+    --c: #00B7EC;
+    /* the color */
+    --b: .1em;
+    /* border length*/
+    --d: 10px;
+    /* the cube depth */
+
+    --_s: calc(var(--d) + var(--b));
+
+    color: var(--c);
+    border: solid #0000;
+    border-radius: 5px;
+    border-width: var(--b) var(--b) var(--_s) var(--_s);
+    background:
+        conic-gradient(at left var(--d) bottom var(--d),
+            #0000 90deg, rgb(255 255 255 /0.3) 0 225deg, rgb(255 255 255 /0.6) 0) border-box,
+        conic-gradient(at left var(--_s) bottom var(--_s),
+            #0000 90deg, var(--c) 0) 0 100%/calc(100% - var(--b)) calc(100% - var(--b)) border-box;
+    transform: translate(calc(var(--d)/-1), var(--d));
+    clip-path:
+        polygon(var(--d) 0%,
+            var(--d) 0%,
+            100% 0%,
+            100% calc(100% - var(--d)),
+            100% calc(100% - var(--d)),
+            var(--d) calc(100% - var(--d)));
+    transition: 0.5s;
+}
+
+.about__us__button__hover1:hover {
+    transform: translate(0, 0);
+    clip-path:
+        polygon(0% var(--d),
+            var(--d) 0%,
+            100% 0%,
+            100% calc(100% - var(--d)),
+            calc(100% - var(--d)) 100%,
+            0% 100%);
+}
+
+.about__us__button__hover2:hover {
+    transform: translate(0, 0);
+    clip-path:
+        polygon(0% var(--d),
+            var(--d) 0%,
+            100% 0%,
+            100% calc(100% - var(--d)),
+            calc(100% - var(--d)) 100%,
+            0% 100%);
+}
+
+@media (max-width: 414px) {
+
+    .about__us {
+        width: 100svw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about__us__image {
+        display: none;
+    }
+
+    .about__us__content {
+        width: 100svw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 45px 0 20px 0;
+    }
+
+    .about__us__title {
+        width: 300px;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .about__us__text {
+        width: calc(100svw - 20px);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0 10px 10px 10px;
+    }
+
+    .about__us__content__buttons {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about__us__button__learnMore {
+        width: 295px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .about__us__button__interview {
+        width: 295px;
+        margin-bottom: 10px;
+    }
+
+}

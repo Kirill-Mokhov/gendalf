@@ -1,0 +1,143 @@
+.answers {
+    width: 100svw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(163deg, rgba(40, 228, 115, 0.16) 11.27%, rgba(70, 205, 22, 0.14) 35.82%, rgba(39, 221, 209, 0.39) 57.4%, rgba(5, 176, 213, 0.32) 82.7%);
+    backdrop-filter: blur(3.5px);
+    padding: 25px 0 25px;
+}
+
+.answers__container {
+    width: 1280px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.answers__container__title {
+    color: #14AFE8;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.answers__container__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-bottom: 15px;
+}
+
+.answers__container__item svg {
+    margin: 0 5px 0 0;
+}
+
+.answers__container__text {
+    height: 26px;
+    color: #666;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+    margin: 0;
+}
+
+.accordion-button {
+    display: flex;
+    flex-direction: row;
+    border: none;
+    cursor: pointer;
+}
+
+.accordion-content {
+    display: none;
+    width: calc(100% - 30px);
+    padding: 5px 15px;
+}
+
+.accordion-content p {
+    font-size: 18px;
+}
+
+.accordion-item.active .accordion-content {
+    display: block;
+}
+
+.accordion-button svg {
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center;
+    height: 25px;
+}
+
+svg.active {
+    transform: rotate(90deg);
+}
+
+svg.inactive {
+    transform: rotate(0deg);
+}
+
+.accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+}
+
+.accordion-button.active+.accordion-content {
+    max-height: 500px;
+}
+
+.answers__container__text__hover {
+    border: 8px solid;
+    border-image: repeating-linear-gradient(135deg, #F8CA00 0 10px, #E97F02 0 20px, #BD1550 0 30px) 8;
+    -webkit-mask:
+        conic-gradient(from 180deg at top 8px right 8px, #0000 90deg, #000 0) var(--_i, 200%) 0 /200% var(--_i, 8px) border-box no-repeat,
+        conic-gradient(at bottom 8px left 8px, #0000 90deg, #000 0) 0 var(--_i, 200%)/var(--_i, 8px) 200% border-box no-repeat,
+        linear-gradient(#000 0 0) padding-box no-repeat;
+    transition: .3s, -webkit-mask-position .3s .3s;
+}
+
+.answers__container__text__hover:hover {
+    --_i: 100%;
+    color: #CC333F;
+    transition: .3s, -webkit-mask-size .3s .3s;
+    font-size: 20px;
+}
+
+@media (max-width: 414px) {
+
+    .answers__container {
+        width: 100svw;
+    }
+
+    .answers__container img {
+        display: none;
+    }
+
+    .answers__container__title {
+        margin: 0;
+    }
+
+    .answers__container__text {
+        width: 305px;
+        margin: 10px 0 10px 0;
+    }
+
+    .answers__container__left {
+        width: calc(100svw - 40px);
+        padding: 0 20px 0 20px;
+    }
+
+    .answers__container__item svg {
+        margin-right: 5px;
+    }
+
+    .accordion-button {
+        align-items: center;
+    }
+
+}

@@ -1,0 +1,21 @@
+.body{
+    color: #FFF;
+    font-family: Open Sans;
+}
+
+.main__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100svw;
+    height: auto;
+}
+
+@media (max-width: 414px) {
+
+    .body{
+        width: 100svw;
+    }
+
+}
+
