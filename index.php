@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ГЭНДАЛЬФ</title>
 
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
 	<link rel="shortcut icon" href="src/icons/Logo.svg">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
@@ -47,7 +46,7 @@
             <a href="#"><img src="src/icons/shop.png" alt="Услуги"></a>
         </div>
         <div class="header__burger__logo">
-            <a href="index.html"><img src="src/icons/Logo.svg" alt="Логотип"></a>
+            <a href="index.php"><img src="src/icons/Logo.svg" alt="Логотип"></a>
         </div>
         <div class="header__burger__icon">
             <a href="#"><img src="src/icons/profile.png" alt="Профиль"></a>
@@ -58,11 +57,11 @@
             <span class="bar"></span>
         </div>
         <nav class="menu" id="menu">
-            <li><a class="submenu__header__item " href="PriceList.php">Профориентация</a></li>
-            <li><a class="submenu__header__item" href="AboutCompany.php">Выбрать вакансию</a></li>
-            <li><a class="submenu__header__item" href="Reviews.php">Карьера в ГЭНДАЛЬФ</a></li>
-            <li><a class="submenu__header__item" href="Employees.php">Стажерство</a></li>
-            <li><a class="submenu__header__item" href="Vacancy.php">Отзывы</a></li>
+            <li><a class="submenu__header__item " href="#">Профориентация</a></li>
+            <li><a class="submenu__header__item" href="#">Выбрать вакансию</a></li>
+            <li><a class="submenu__header__item" href="#">Карьера в ГЭНДАЛЬФ</a></li>
+            <li><a class="submenu__header__item" href="#">Стажерство</a></li>
+            <li><a class="submenu__header__item" href="">Отзывы</a></li>
         </nav>
         <div class="popup" id="popup"></div>
     </header>
@@ -364,7 +363,7 @@
                                 <circle cx="11.5" cy="11.5" r="10.5" stroke="#00B7EC" stroke-width="2"/>
                                 <path d="M16.5 11.134C17.1667 11.5189 17.1667 12.4811 16.5 12.866L9 17.1962C8.33333 17.5811 7.5 17.0999 7.5 16.3301L7.5 7.66987C7.5 6.90007 8.33333 6.41895 9 6.80385L16.5 11.134Z" fill="#00B7EC"/>
                             </svg>
-                            <p class="answers__container__text answers__container__text__hover">На что нужно обратить внимание на собеседовании?</p>
+                            <p class="answers__container__text">На что нужно обратить внимание на собеседовании?</p>
                         </div>
                         <div class="accordion-content">
                             <p>Кроме умения представлять себя, грамотно разговаривать и опрятного внешнего вида, стоит обратить внимание еще на пару моментов. Они не очевидны, но очень эффективны.</p>
@@ -381,7 +380,7 @@
                                 <circle cx="11.5" cy="11.5" r="10.5" stroke="#00B7EC" stroke-width="2"/>
                                 <path d="M16.5 11.134C17.1667 11.5189 17.1667 12.4811 16.5 12.866L9 17.1962C8.33333 17.5811 7.5 17.0999 7.5 16.3301L7.5 7.66987C7.5 6.90007 8.33333 6.41895 9 6.80385L16.5 11.134Z" fill="#00B7EC"/>
                             </svg>
-                            <p class="answers__container__text answers__container__text__hover">Как правильно составить резюме?</p>
+                            <p class="answers__container__text">Как правильно составить резюме?</p>
                         </div>
                         <div class="accordion-content">
                             <p>Резюме – это ваша визитная карточка на собеседовании. Из него потенциальный работодатель узнает о профессиональных навыках, опыте работы, достижениях и так далее.</p>
@@ -436,7 +435,7 @@
                                 <circle cx="11.5" cy="11.5" r="10.5" stroke="#00B7EC" stroke-width="2"/>
                                 <path d="M16.5 11.134C17.1667 11.5189 17.1667 12.4811 16.5 12.866L9 17.1962C8.33333 17.5811 7.5 17.0999 7.5 16.3301L7.5 7.66987C7.5 6.90007 8.33333 6.41895 9 6.80385L16.5 11.134Z" fill="#00B7EC"/>
                             </svg>
-                            <p class="answers__container__text answers__container__text__hover">Возможно ли устроиться без опыта?</p>
+                            <p class="answers__container__text">Возможно ли устроиться без опыта?</p>
                         </div>
                         <div class="accordion-content">
                             <p>Отсутствие опыта – не повод для отказа. Мы переводим сотрудников без опыта в специальный отдел профориентации, который занимается подготовкой специалистов для разных отделов ГЭНДАЛЬФ в соответствии с их способностями, навыками и желаниями.</p>
@@ -448,7 +447,7 @@
                                 <circle cx="11.5" cy="11.5" r="10.5" stroke="#00B7EC" stroke-width="2"/>
                                 <path d="M16.5 11.134C17.1667 11.5189 17.1667 12.4811 16.5 12.866L9 17.1962C8.33333 17.5811 7.5 17.0999 7.5 16.3301L7.5 7.66987C7.5 6.90007 8.33333 6.41895 9 6.80385L16.5 11.134Z" fill="#00B7EC"/>
                             </svg>
-                            <p class="answers__container__text answers__container__text__hover">Ошибки на собеседовании. Чего нужно избегать?</p>
+                            <p class="answers__container__text">Ошибки на собеседовании. Чего нужно избегать?</p>
                         </div>
                         <div class="accordion-content">
                             <p>Есть несколько моментов, которые легко испортят ваше собеседование.</p>
@@ -478,19 +477,67 @@
             <img class="interview__bg" src="src/image/interview__bg.png" alt="">
             <div class="interview__container">
                 <h2 class="interview__title2">Записаться на собеседование</h2>
-                <form class="interview__container__form" action="">
-
-                    <input id="name" class="interview__input" type="text" name="name" placeholder="Как к вам обращаться?*" required>
-                    <span class="error-message"></span>
-
-                    <input id="tel" class="interview__input" type="tel" name="tel" placeholder="Телефон*" required>
-                    <span class="error-message"></span>
-
-                    <input class="interview__input" type="text" placeholder="Email">
-                    <span class="error-message"></span>
-
-                    <input id="tel" class="interview__input" type="text" placeholder="Желаемая должность" required>
-                    <span class="error-message"></span>
+                <form class="interview__container__form" id="interview__form">
+                    <div class="interview__container__form-input-item">
+                        <input id="name" class="interview__input" type="text" name="name" placeholder="Как к вам обращаться?*" minlength="2" required>
+                        <svg class="interview__input__svg" width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g class="error__svg hidden">
+                                <circle cx="15.5" cy="15.5" r="15.5" fill="#FD7583"></circle>
+                                <path d="M23.3535 9.13003L9.13024 23.3533C8.77337 23.7102 8.15138 23.6675 7.74187 23.258C7.33235 22.8485 7.28964 22.2265 7.64651 21.8696L21.8698 7.6463C22.2267 7.28942 22.8487 7.33214 23.2582 7.74165C23.6677 8.15116 23.7104 8.77315 23.3535 9.13003Z" fill="white"></path>
+                                <path d="M21.8705 23.3535L7.64716 9.13024C7.29028 8.77337 7.333 8.15138 7.74251 7.74187C8.15202 7.33235 8.77401 7.28964 9.13089 7.64651L23.3542 21.8698C23.7111 22.2267 23.6683 22.8487 23.2588 23.2582C22.8493 23.6677 22.2273 23.7104 21.8705 23.3535Z" fill="white"></path>
+                            </g>
+                            <g class="success__svg hidden">
+                                <circle cx="15.5" cy="15.5" r="15.5" fill="#9BCC37"></circle>
+                                <path d="M12.9982 18.209C13.1386 18.0687 13.2141 17.9931 13.3113 17.8852C16.0105 15.1107 18.7096 12.347 21.4087 9.57251C21.7326 9.23784 22.0889 8.98954 22.5532 9.00034C23.1254 9.00034 23.5573 9.27023 23.8272 9.78842C24.0971 10.3066 24.0431 10.8248 23.7192 11.3106C23.622 11.451 23.5033 11.5697 23.3845 11.6885C20.3183 14.8408 17.2413 17.9823 14.175 21.1346C13.3653 21.9551 12.5987 21.9551 11.7998 21.1346C10.3746 19.6664 8.9387 18.1982 7.51355 16.73C6.98452 16.1794 6.85496 15.5317 7.16806 14.9379C7.63231 14.0311 8.75515 13.88 9.51092 14.6465C10.5798 15.726 11.627 16.8164 12.6959 17.9067C12.7715 18.0039 12.8039 18.0255 12.9982 18.209Z" fill="white"></path>
+                            </g>
+                        </svg>
+                        <span class="error-message"></span>
+                    </div>
+                    <div class="interview__container__form-input-item">
+                        <input id="tel" class="interview__input" type="tel" name="tel" placeholder="Телефон*" minlength="10" required>
+                        <svg class="interview__input__svg" width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g class="error__svg hidden">
+                                <circle cx="15.5" cy="15.5" r="15.5" fill="#FD7583"></circle>
+                                <path d="M23.3535 9.13003L9.13024 23.3533C8.77337 23.7102 8.15138 23.6675 7.74187 23.258C7.33235 22.8485 7.28964 22.2265 7.64651 21.8696L21.8698 7.6463C22.2267 7.28942 22.8487 7.33214 23.2582 7.74165C23.6677 8.15116 23.7104 8.77315 23.3535 9.13003Z" fill="white"></path>
+                                <path d="M21.8705 23.3535L7.64716 9.13024C7.29028 8.77337 7.333 8.15138 7.74251 7.74187C8.15202 7.33235 8.77401 7.28964 9.13089 7.64651L23.3542 21.8698C23.7111 22.2267 23.6683 22.8487 23.2588 23.2582C22.8493 23.6677 22.2273 23.7104 21.8705 23.3535Z" fill="white"></path>
+                            </g>
+                            <g class="success__svg hidden">
+                                <circle cx="15.5" cy="15.5" r="15.5" fill="#9BCC37"></circle>
+                                <path d="M12.9982 18.209C13.1386 18.0687 13.2141 17.9931 13.3113 17.8852C16.0105 15.1107 18.7096 12.347 21.4087 9.57251C21.7326 9.23784 22.0889 8.98954 22.5532 9.00034C23.1254 9.00034 23.5573 9.27023 23.8272 9.78842C24.0971 10.3066 24.0431 10.8248 23.7192 11.3106C23.622 11.451 23.5033 11.5697 23.3845 11.6885C20.3183 14.8408 17.2413 17.9823 14.175 21.1346C13.3653 21.9551 12.5987 21.9551 11.7998 21.1346C10.3746 19.6664 8.9387 18.1982 7.51355 16.73C6.98452 16.1794 6.85496 15.5317 7.16806 14.9379C7.63231 14.0311 8.75515 13.88 9.51092 14.6465C10.5798 15.726 11.627 16.8164 12.6959 17.9067C12.7715 18.0039 12.8039 18.0255 12.9982 18.209Z" fill="white"></path>
+                            </g>
+                        </svg>
+                        <span class="error-message"></span>
+                    </div>
+                    <div class="interview__container__form-input-item">
+                        <input id="email" class="interview__input" type="text" placeholder="Email" minlength="3">
+                        <svg class="interview__input__svg" width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g class="error__svg hidden">
+                                <circle cx="15.5" cy="15.5" r="15.5" fill="#FD7583"></circle>
+                                <path d="M23.3535 9.13003L9.13024 23.3533C8.77337 23.7102 8.15138 23.6675 7.74187 23.258C7.33235 22.8485 7.28964 22.2265 7.64651 21.8696L21.8698 7.6463C22.2267 7.28942 22.8487 7.33214 23.2582 7.74165C23.6677 8.15116 23.7104 8.77315 23.3535 9.13003Z" fill="white"></path>
+                                <path d="M21.8705 23.3535L7.64716 9.13024C7.29028 8.77337 7.333 8.15138 7.74251 7.74187C8.15202 7.33235 8.77401 7.28964 9.13089 7.64651L23.3542 21.8698C23.7111 22.2267 23.6683 22.8487 23.2588 23.2582C22.8493 23.6677 22.2273 23.7104 21.8705 23.3535Z" fill="white"></path>
+                            </g>
+                            <g class="success__svg hidden">
+                                <circle cx="15.5" cy="15.5" r="15.5" fill="#9BCC37"></circle>
+                                <path d="M12.9982 18.209C13.1386 18.0687 13.2141 17.9931 13.3113 17.8852C16.0105 15.1107 18.7096 12.347 21.4087 9.57251C21.7326 9.23784 22.0889 8.98954 22.5532 9.00034C23.1254 9.00034 23.5573 9.27023 23.8272 9.78842C24.0971 10.3066 24.0431 10.8248 23.7192 11.3106C23.622 11.451 23.5033 11.5697 23.3845 11.6885C20.3183 14.8408 17.2413 17.9823 14.175 21.1346C13.3653 21.9551 12.5987 21.9551 11.7998 21.1346C10.3746 19.6664 8.9387 18.1982 7.51355 16.73C6.98452 16.1794 6.85496 15.5317 7.16806 14.9379C7.63231 14.0311 8.75515 13.88 9.51092 14.6465C10.5798 15.726 11.627 16.8164 12.6959 17.9067C12.7715 18.0039 12.8039 18.0255 12.9982 18.209Z" fill="white"></path>
+                            </g>
+                        </svg>
+                        <span class="error-message"></span>
+                    </div>
+                    <div class="interview__container__form-input-item">
+                        <input id="job" class="interview__input" type="text" placeholder="Желаемая должность" minlength="4" required>
+                        <svg class="interview__input__svg" width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g class="error__svg hidden">
+                                <circle cx="15.5" cy="15.5" r="15.5" fill="#FD7583"></circle>
+                                <path d="M23.3535 9.13003L9.13024 23.3533C8.77337 23.7102 8.15138 23.6675 7.74187 23.258C7.33235 22.8485 7.28964 22.2265 7.64651 21.8696L21.8698 7.6463C22.2267 7.28942 22.8487 7.33214 23.2582 7.74165C23.6677 8.15116 23.7104 8.77315 23.3535 9.13003Z" fill="white"></path>
+                                <path d="M21.8705 23.3535L7.64716 9.13024C7.29028 8.77337 7.333 8.15138 7.74251 7.74187C8.15202 7.33235 8.77401 7.28964 9.13089 7.64651L23.3542 21.8698C23.7111 22.2267 23.6683 22.8487 23.2588 23.2582C22.8493 23.6677 22.2273 23.7104 21.8705 23.3535Z" fill="white"></path>
+                            </g>
+                            <g class="success__svg hidden">
+                                <circle cx="15.5" cy="15.5" r="15.5" fill="#9BCC37"></circle>
+                                <path d="M12.9982 18.209C13.1386 18.0687 13.2141 17.9931 13.3113 17.8852C16.0105 15.1107 18.7096 12.347 21.4087 9.57251C21.7326 9.23784 22.0889 8.98954 22.5532 9.00034C23.1254 9.00034 23.5573 9.27023 23.8272 9.78842C24.0971 10.3066 24.0431 10.8248 23.7192 11.3106C23.622 11.451 23.5033 11.5697 23.3845 11.6885C20.3183 14.8408 17.2413 17.9823 14.175 21.1346C13.3653 21.9551 12.5987 21.9551 11.7998 21.1346C10.3746 19.6664 8.9387 18.1982 7.51355 16.73C6.98452 16.1794 6.85496 15.5317 7.16806 14.9379C7.63231 14.0311 8.75515 13.88 9.51092 14.6465C10.5798 15.726 11.627 16.8164 12.6959 17.9067C12.7715 18.0039 12.8039 18.0255 12.9982 18.209Z" fill="white"></path>
+                            </g>
+                        </svg>
+                        <span class="error-message"></span>
+                    </div>
                     <div class="interview__radio__container">
                         <p class="interview__title3">Выберите категорию занятости</p>
                         <div class="interview__radio">
@@ -508,13 +555,13 @@
                     </div>
                     <textarea class="interview__input__textarea" placeholder="Ваши вопросы"></textarea>
                     <div class="interview__form__button">
-                        <button class="interview__form__button__resume">
-                            Прикрепить резюме
+                        <label class="interview__form__button__resume" for="file-upload">Прикрепить резюме
                             <svg xmlns="http://www.w3.org/2000/svg" width="28" height="27" viewBox="0 0 28 27" fill="none">
                                 <path d="M28 20.2553C27.9066 20.8533 27.7731 21.4445 27.6004 22.0251C27.2217 23.2159 26.5251 24.2853 25.5831 25.1221C24.6411 25.959 23.488 26.5326 22.2438 26.7835C21.0064 27.0926 19.7074 27.0704 18.4817 26.7192C17.2561 26.368 16.1486 25.7006 15.2747 24.7865C10.7454 20.3655 6.2302 15.9308 1.729 11.4823C0.793851 10.611 0.196928 9.4469 0.0408276 8.1902C-0.115273 6.9335 0.179199 5.66264 0.873631 4.59605C1.37057 3.76237 2.09107 3.07873 2.95653 2.61971C3.82199 2.16069 4.79917 1.94393 5.78148 1.99306C6.52065 1.99805 7.25121 2.14943 7.92945 2.43814C8.60769 2.72684 9.21967 3.14694 9.72879 3.6733C13.6177 7.48827 17.5042 11.3055 21.3884 15.1251C22.0966 15.786 22.5137 16.6926 22.5507 17.6513C22.5878 18.6101 22.2418 19.5451 21.5867 20.2568C20.9316 20.9685 20.0192 21.4006 19.0443 21.4608C18.0694 21.521 17.1091 21.2045 16.3684 20.579L16.0669 20.3035L5.92871 10.3736C5.77245 10.2567 5.65551 10.0964 5.59301 9.91344C5.53051 9.73052 5.52534 9.53339 5.57815 9.34755C5.61987 9.21128 5.69381 9.08663 5.79395 8.9838C5.89408 8.88096 6.01756 8.80285 6.15431 8.75584C6.29105 8.70884 6.43718 8.69427 6.58075 8.71333C6.72432 8.73239 6.86126 8.78453 6.98039 8.86551C7.07891 8.94493 7.17256 9.03001 7.26084 9.1203C10.6496 12.4119 14.008 15.7035 17.3359 18.9952C17.584 19.279 17.9127 19.4837 18.2799 19.5831C18.6471 19.6824 19.0361 19.672 19.3972 19.5529C19.6785 19.4601 19.9333 19.3029 20.1406 19.0943C20.3478 18.8857 20.5017 18.6317 20.5893 18.3532C20.677 18.0748 20.696 17.7798 20.6447 17.4927C20.5935 17.2056 20.4735 16.9346 20.2947 16.702C20.1965 16.585 20.0914 16.4679 19.9862 16.3646L8.4247 5.00922C7.75095 4.32315 6.83389 3.91853 5.8642 3.8795C4.8945 3.84047 3.94681 4.17004 3.21817 4.79968C2.48952 5.42931 2.036 6.31056 1.95191 7.26018C1.86782 8.2098 2.15963 9.15471 2.76666 9.89844C2.87884 10.0224 2.99803 10.1463 3.12423 10.2703C7.58336 14.6545 12.0472 19.0388 16.5156 23.423C17.3119 24.2591 18.3576 24.8257 19.5024 25.0413C20.4551 25.2208 21.439 25.152 22.3562 24.8419C23.2734 24.5318 24.0919 23.9911 24.7301 23.2736C25.3684 22.5562 25.8042 21.6871 25.9941 20.7528C26.184 19.8185 26.1214 18.8516 25.8125 17.9484C25.5168 17.0981 25.0165 16.3303 24.3542 15.7104L10.0934 1.68318C9.94191 1.56827 9.8271 1.4132 9.76249 1.23626C9.69789 1.05933 9.68619 0.867927 9.72879 0.684673C9.7671 0.536924 9.84262 0.401012 9.94843 0.289447C10.0542 0.177881 10.1869 0.0942455 10.3342 0.046238C10.4816 -0.00176947 10.6388 -0.0126066 10.7915 0.0147239C10.9443 0.0420544 11.0875 0.106675 11.2082 0.202637C11.2853 0.264613 11.3554 0.340361 11.4255 0.409224L25.7143 14.4365C26.7918 15.4812 27.5247 16.82 27.8177 18.279C27.8738 18.5613 27.9159 18.8437 27.9649 19.126L28 20.2553Z" fill="#9BCC37"/>
                             </svg>
-                        </button>
-                        <button class="interview__form__button__request">Оставить заявку</button>
+                        </label>
+                        <input class="hidden" type="file" id="file-upload" name="file-upload">
+                        <button type="submit" class="interview__form__button__request">Оставить заявку</button>
                     </div>
                 </form>
             </div>
@@ -523,7 +570,7 @@
     
     <script src="src/blocks/validate__form/inputmask.min.js"></script>
 	<script src="src/blocks/validate__form/just-validate.min.js"></script>
-	<script type="module" src="src/blocks/validate__form/main.js" ></script>
+	<script src="src/blocks/validate__form/validate.js" ></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="src/blocks/values/values.js"></script>
     <script src="src/blocks/header/header.js"></script>

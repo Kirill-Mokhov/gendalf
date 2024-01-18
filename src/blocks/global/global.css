@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../../fonts/open-sans.woff2') format('woff2'),
+         url('../../fonts/open-sans.woff') format('woff');
+}
+
+
 .body{
     color: #FFF;
     font-family: Open Sans;
@@ -9,6 +16,16 @@
     align-items: center;
     width: 100svw;
     height: auto;
+}
+
+.noscroll {
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+}
+
+.hidden {
+    display: none;
 }
 
 @media (max-width: 414px) {
